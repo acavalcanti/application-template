@@ -369,7 +369,7 @@
 		    "env": [
         		{
           			"Name": "MAVEN_ARGS",
-          			"Value": "clean package -DskipTests -s config/nexus-hardcoded-settings.xml"
+          			"Value": "clean package -Dmaven.test.skip=true -s config/nexus-hardcoded-settings.xml"
         		}
     		   ]
                 },
